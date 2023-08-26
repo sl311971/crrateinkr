@@ -17,4 +17,6 @@ public class MapController {
     }
 
 
+    @GetMapping("/")
+    public String indexList() {return "index"; }
 }
