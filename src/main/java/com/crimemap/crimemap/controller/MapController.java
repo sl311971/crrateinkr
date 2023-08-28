@@ -19,4 +19,8 @@ public class MapController {
 
     @GetMapping("/")
     public String indexList() {return "index"; }
+
+    
+    @GetMapping("/button1")
+    public String button1List() {return "button1"; }
 }
